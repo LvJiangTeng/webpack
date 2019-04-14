@@ -2,5 +2,27 @@
     "presets": [
         "@babel/preset-env",
         "@babel/react"
-    ]
+    ],
+    // "env": {
+    //     "development": {
+    //         "plugins": [
+    //             [
+    //                 "react-transform",
+    //                 {
+    //                     "transforms": [
+    //                         {
+    //                             "transform": "react-transform-hmr",
+    //                             "imports": [
+    //                                 "react"
+    //                             ],
+    //                             "locals": [
+    //                                 "module"
+    //                             ]
+    //                         }
+    //                     ]
+    //                 }
+    //             ]
+    //         ]
+    //     }
+    // }
 }
